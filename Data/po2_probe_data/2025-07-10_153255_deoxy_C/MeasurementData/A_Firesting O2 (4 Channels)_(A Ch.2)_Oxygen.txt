@@ -1,0 +1,44 @@
+#--- Experiment --------------------------------------------------------------------------
+#deoxy_C
+#
+#--- System ------------------------------------------------------------------------------
+#Data from PyroScience Workbench V1.5.4.2482   www.pyroscience.com
+#PHY-0625-PCL
+#--- Instrument --------------------------------------------------------------------------
+#Device: FireSting-O2 [A] FSO2-C4 SN:21490196 UiD:243B1F075D64A73F Firmware:4.11 Build:001
+#--- Channel -----------------------------------------------------------------------------
+#Channel [A Ch.2] - Oxygen Sensor - SC7-524-194 
+#--- Settings & Calibration --------------------------------------------------------------
+#Settings:	Duration	Intensity	Amp	Frequency (Hz)	Crc Enable	Write Lock	Autom. Flash Duration	Autom. Amp Level	Broadcast Interval (ms)	Broadcast Enabled Sensors	Broadcast Options	Analyte	Fiber Type	Fiber Length (mm)	Radio Temp	Temperature (°C)	Opt. Temp. Chan.	Radio Pressure	Pressure (mbar)	Salinity (g/l)
+#	1 ms	20% (C)	10M (400x)	4000	FALSE	FALSE	TRUE	TRUE	0	47	0	oxygen	1 mm	1000	External Temperature Sensor	20.000000	1	Internal Pressure Sensor	1013.000000	7.500000
+#Calibration:	lastCal1	lastCal2	dphi 100% (°)	dphi 0% (°)	f	m	F(Hz)	tt(%/K)	kt(%/K)	Background Amplitude (mV)	Background dphi (°)	mt(1/K)	Tofs(K)	Ksv (1/mbar)	Method	Air Pressure (mbar)	Temperature (°C)	Humidity (%RH)	Temperature (°C) at 0%	Partial Volume of Oxygen (%O2)
+#	09/01/2025	31/12/2000	20.036	52.400	0.804000	0.122000	4000	-0.056000	0.969000	0.584000	0.000000	-0.000303	0.000000	0.000000	fixed f	1006.422	22.803	100.000	20.000	20.950000
+#--- Temperature Compensation Channel ----------------------------------------------------
+#Compensation Channel [A T1] - PT100 Temperature Sensor - Calibration offset = 0.00°C
+#Settings: n/a
+#Calibration: n/a
+#--- Pressure Compensation Channel -------------------------------------------------------
+#Compensation Channel [A P1] - Internal Pressure Sensor
+#Settings: n/a
+#Calibration: n/a
+#--- Measurement Data --------------------------------------------------------------------
+Date [A Ch.2 Main]	Time [A Ch.2 Main]	 dt (s) [A Ch.2 Main]	Oxygen (hPa) [A Ch.2 Main]	dphi (°) [A Ch.2 Main]	Signal Intensity (mV) [A Ch.2 Main]	Ambient Light (mV) [A Ch.2 Main]	Status [A Ch.2 Main]	Date [A Ch.2 CompT]	Time [A Ch.2 CompT]	 dt (s) [A Ch.2 CompT]	Sample Temp. (°C) [A Ch.2 CompT]	Status [A Ch.2 CompT]	Date [A Ch.2 CompP]	Time [A Ch.2 CompP]	 dt (s) [A Ch.2 CompP]	Pressure (mbar) [A Ch.2 CompP]	Status [A Ch.2 CompP]
+10-07-2025	15:32:56.009	0.026	NaN	-171.306	1	3	OK	10-07-2025	15:32:56.009	0.026	NaN	OK	10-07-2025	15:32:56.009	0.026	1020	OK
+10-07-2025	15:32:56.997	1.014	NaN	-170.970	1	3	OK	10-07-2025	15:32:56.997	1.014	NaN	OK	10-07-2025	15:32:56.997	1.014	1020	OK
+10-07-2025	15:32:57.997	2.014	NaN	-176.620	1	3	OK	10-07-2025	15:32:57.997	2.014	NaN	OK	10-07-2025	15:32:57.997	2.014	1020	OK
+10-07-2025	15:32:59.000	3.016	NaN	-175.661	1	3	OK	10-07-2025	15:32:59.000	3.016	NaN	OK	10-07-2025	15:32:59.000	3.016	1020	OK
+10-07-2025	15:32:59.998	4.015	NaN	-178.548	2	3	OK	10-07-2025	15:32:59.998	4.015	NaN	OK	10-07-2025	15:32:59.998	4.015	1020	OK
+10-07-2025	15:33:01.002	5.018	NaN	-162.719	2	3	OK	10-07-2025	15:33:01.002	5.018	NaN	OK	10-07-2025	15:33:01.002	5.018	1020	OK
+10-07-2025	15:33:02.002	6.019	NaN	174.168	1	3	OK	10-07-2025	15:33:02.002	6.019	NaN	OK	10-07-2025	15:33:02.002	6.019	1020	OK
+10-07-2025	15:33:03.000	7.016	NaN	-171.783	1	3	OK	10-07-2025	15:33:03.000	7.016	NaN	OK	10-07-2025	15:33:03.000	7.016	1020	OK
+10-07-2025	15:33:04.001	8.018	NaN	-179.818	1	3	OK	10-07-2025	15:33:04.001	8.018	NaN	OK	10-07-2025	15:33:04.001	8.018	1020	OK
+10-07-2025	15:33:05.001	9.018	NaN	-178.148	1	3	OK	10-07-2025	15:33:05.001	9.018	NaN	OK	10-07-2025	15:33:05.001	9.018	1020	OK
+10-07-2025	15:33:06.000	10.016	NaN	-178.671	1	3	OK	10-07-2025	15:33:06.000	10.016	NaN	OK	10-07-2025	15:33:06.000	10.016	1020	OK
+10-07-2025	15:33:07.000	11.017	NaN	-177.292	2	3	OK	10-07-2025	15:33:07.000	11.017	NaN	OK	10-07-2025	15:33:07.000	11.017	1020	OK
+10-07-2025	15:33:07.999	12.016	NaN	179.952	2	3	OK	10-07-2025	15:33:07.999	12.016	NaN	OK	10-07-2025	15:33:07.999	12.016	1020	OK
+10-07-2025	15:33:09.000	13.017	NaN	177.930	1	3	OK	10-07-2025	15:33:09.000	13.017	NaN	OK	10-07-2025	15:33:09.000	13.017	1020	OK
+10-07-2025	15:33:10.002	14.019	NaN	174.341	2	3	OK	10-07-2025	15:33:10.002	14.019	NaN	OK	10-07-2025	15:33:10.002	14.019	1020	OK
+10-07-2025	15:33:11.001	15.018	NaN	-177.959	1	3	OK	10-07-2025	15:33:11.001	15.018	NaN	OK	10-07-2025	15:33:11.001	15.018	1020	OK
+10-07-2025	15:33:12.003	16.020	NaN	-177.948	1	1	OK	10-07-2025	15:33:12.003	16.020	NaN	OK	10-07-2025	15:33:12.003	16.020	1020	OK
+10-07-2025	15:33:13.007	17.023	NaN	-176.449	1	1	OK	10-07-2025	15:33:13.007	17.023	NaN	OK	10-07-2025	15:33:13.007	17.023	1020	OK
+10-07-2025	15:33:14.004	18.021	NaN	-173.054	1	2	OK	10-07-2025	15:33:14.004	18.021	NaN	OK	10-07-2025	15:33:14.004	18.021	1020	OK
