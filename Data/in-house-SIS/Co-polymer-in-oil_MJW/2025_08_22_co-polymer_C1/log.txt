@@ -1,0 +1,11 @@
+Date: 2025_08_22
+
+VIS Spectrometer: QEP01767 at integration time of 500.0 ms
+SWIR Spectrometer: NQ51B1542 at integration time of 5000.0 ms
+Beam diameter is 7.0 mm, incident at 8.0 deg
+Sphere sample port diameter is 15.0 mm
+
+Sample name: co-polymer_C1
+Sample thickness = 2.64
+Sample refractive index = 1.43
+Cuvette thickness = 0.0 mm, cuvette refractive index = 1.0
