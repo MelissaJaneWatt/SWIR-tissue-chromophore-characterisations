@@ -15,12 +15,13 @@ This code has been written as Jupyter Notebooks (.ipynb) and requires a Python e
 1. Directory "Data":
 
 Contains 
-    1) Directory "RBCs": csv files with horse red blood cell flow cytometry measured cell diameters
-    2) Directory "Reference Spectra": reference datasets of optical properties from literature (see paper for full description)
-    3) Directory "Shmadzu": csv files containing raw transmittance spectra measured with Shimadzu SIS system and a combined processed file with estimated absorption coefficient for all measured chromophores.
-    4) Directory "Simulation_Spectra": optical properties used in SIMPA simulations
-    5) Directory "in-house-SIS": conatins directories containing raw data and IAD outputs for each chromophore and tissue-mimicking phantom measured with the in-house SIS system and a combined processed csv file with estimated optical properties for all measured chromophores.
-    6) Directory "po2_probe_data": raw data from oxygen probe
+    1) Directory "Download_Spectra": .txt and .npz files containing the absorption and reduced scattering cofficients we measured that can be readily downloaded. Note: the whole blood is horse blood, which has smaller RBC diameters than human RBCs, and thus the measured reduced scattering coefficient is lower than expected for human blood.
+    2) Directory "RBCs": .csv files with horse red blood cell flow cytometry measured cell diameters.
+    3) Directory "Reference Spectra": reference datasets of optical properties from literature (see paper for full description).
+    4) Directory "Shmadzu": .csv files containing raw transmittance spectra measured with Shimadzu SIS system and a combined processed file with estimated absorption coefficient for all measured chromophores.
+    5) Directory "Simulation_Spectra": optical properties used in SIMPA simulations. These data are a combination of spectra we measured and reference spectra from literature, see paper for details.
+    6) Directory "in-house-SIS": conatins directories containing raw data and IAD outputs for each chromophore and tissue-mimicking phantom measured with the in-house SIS system and a combined processed csv file with estimated optical properties for all measured chromophores.
+    7) Directory "po2_probe_data": raw data from oxygen probe.
 
 2. Jupyter Notebook "Plots_for_Figures.ipynb": Code for generating figures and generating of models of whole blood scattering using Mie theory.
 
